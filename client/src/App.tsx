@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom' 
-import { Dashboard } from './pages'
-import { Auth } from './auth'
+import { Dashboard } from './pages/dashborad'
+import { Auth } from './pages/auth'
 
 function App() {
 
