@@ -23,7 +23,7 @@ export const FinancialRecordContext = createContext<FinancialRecordsContextType 
 export const FinancialRecordsProvider = ({children}: {children: React.ReactNode}) => {
 
     const [records, setRecords] = useState<FinancialRecord[]>([]);
-    const {user} = useUser();
+    const { user } = useUser();
 
 
     const fetchRecords = async () => {
